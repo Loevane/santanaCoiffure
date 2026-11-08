@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /contact.php
+Disallow: /avis.php
+Sitemap: https://www.VOTRE-DOMAINE.fr/sitemap.xml
