@@ -90,12 +90,21 @@ p + p {
   box-shadow: 0 1px 0 var(--line);
 }
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
   font-family: var(--serif);
   font-size: 1.6rem;
   font-weight: 700;
   text-decoration: none;
 }
-.logo span {
+.logo .mark {
+  width: 40px;
+  height: 40px;
+  flex: none;
+}
+.logo i {
+  font-style: normal;
   color: var(--gold);
   font-weight: 500;
 }

@@ -30,10 +30,14 @@
       content="https://www.VOTRE-DOMAINE.fr/images/hero.jpg"
     />
     <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/svg+xml" href="logo/icone-santana.svg" />
     <link
       rel="icon"
-      href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 fill=%27%231a1918%27/%3E%3Ctext x=%2732%27 y=%2745%27 font-size=%2742%27 text-anchor=%27middle%27 fill=%27%23c8a063%27 font-family=%27Georgia%27%3ES%3C/text%3E%3C/svg%3E"
+      type="image/png"
+      sizes="32x32"
+      href="logo/favicon-32.png"
     />
+    <link rel="apple-touch-icon" href="logo/apple-touch-icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -49,6 +53,7 @@
         "description": "Salon de coiffure femme, homme et enfants à Cousance : coupe, coloration, mèches, balayage, chignon de mariée.",
         "url": "https://www.VOTRE-DOMAINE.fr/",
         "image": "https://www.VOTRE-DOMAINE.fr/images/hero.jpg",
+        "logo": "https://www.VOTRE-DOMAINE.fr/logo/icone-santana-512.png",
         "telephone": "+33XXXXXXXXX",
         "priceRange": "€",
         "areaServed": "Cousance",
@@ -120,7 +125,27 @@
   </head>
   <body>
     <header class="header" id="top">
-      <a class="logo" href="#accueil">Santana <span>coiffure</span></a>
+      <a class="logo" href="#accueil"
+        ><svg class="mark" viewBox="0 0 64 64" aria-hidden="true">
+          <g
+            fill="none"
+            stroke="#c8a063"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <circle cx="32" cy="32" r="29" stroke-width="1.8" />
+            <circle cx="24" cy="50" r="6.5" stroke-width="2.6" />
+            <circle cx="40" cy="50" r="6.5" stroke-width="2.6" />
+            <path d="M32 35 27.05 44.26M32 35 36.95 44.26" stroke-width="3.2" />
+            <path
+              d="M33.9 36 43.7 12.9 30.1 34ZM30.1 36 20.3 12.9 33.9 34Z"
+              fill="#c8a063"
+              stroke-width=".6"
+            />
+          </g>
+          <circle cx="32" cy="35" r="1.7" fill="#1a1918" /></svg
+        ><span>Santana <i>coiffure</i></span></a
+      >
       <button
         class="burger"
         aria-label="Ouvrir le menu"
